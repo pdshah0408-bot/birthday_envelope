@@ -39,7 +39,7 @@ I’ve always felt that our bond is truly incredible. There have been so many ti
 Here’s to more memories, more nonsense, more fights, and obviously, more kalesh. 😂❤️
 Stay the same annoying, amazing person you are. Happiest birthday once again, kiddooo! 🥹🫶🏻
 """
-SIGNATURE = "With all my love,\nYour Best Friend 🎈"
+SIGNATURE = "With all my love,\nPushti <3"
 # Photos are picked up straight from the same folder as this script.
 PHOTO_FOLDER = os.path.dirname(os.path.abspath(__file__))
 # Files to ignore even if they end in an image extension (none needed by default)
@@ -267,7 +267,7 @@ else:
         unsafe_allow_html=True,
     )
 
-    st.markdown('<div class="photo-title">📸 Our Chaotic, Iconic Memories</div>', unsafe_allow_html=True)
+    st.markdown('<div class="photo-title">📸 Iconic Memories</div>', unsafe_allow_html=True)
     st.markdown('<div class="wall-hint">hover a photo to zoom in ✨</div>', unsafe_allow_html=True)
 
     def _b64(data: bytes) -> str:
